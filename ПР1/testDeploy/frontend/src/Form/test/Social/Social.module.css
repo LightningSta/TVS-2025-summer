@@ -1,0 +1,14 @@
+.Social{
+    width: 1.25vw;
+    height: 1.25vw;
+    padding: 0.42vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 1px solid var(--Light_grey, #E2E0DB);
+}
+.Social{
+    width: 1.25vw;
+    height: 1.25vw;
+}

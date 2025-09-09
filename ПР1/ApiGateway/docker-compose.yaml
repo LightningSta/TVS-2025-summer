@@ -1,0 +1,13 @@
+services:
+  api-gateway:
+    image: api-gateway:latest
+    build:
+      context: .
+      args:
+        DOCKER_BUILDKIT: 1
+    restart: always
+    environment:
+      POSTGRES_USER: postgres
+      EUREKA_CLIENT_SERVICE_URL_DEFAULTZONE: http://service-server:8081/eureka/
+    ports:
+      - "8082:8082"

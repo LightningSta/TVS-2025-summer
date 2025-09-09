@@ -1,0 +1,55 @@
+.PodCard{
+    width: 48.28vw;
+    height: 5.31vw;
+    display: flex;
+    align-items: center;
+    gap: 1.04vw;
+    align-self: stretch;
+}
+.Box{
+    width: 22.4vw;
+    height: 3.23vw;
+    display: flex;
+    padding: 20px;
+    align-items: flex-start;
+    gap: 1.04vw;
+    flex: 1 0 0;
+    border-radius: 0.31vw;
+    background: #F7F7FB;
+}
+.Grid{
+    display: flex;
+    width: 3.23vw;
+    height: 3.23vw;
+    justify-content: center;
+    align-items: center;
+    gap: 0.52vw;
+    border-radius: 50%;
+}
+.Image{
+    width: 1.39vw;
+    height: 1.33vw;
+    flex-shrink: 0;
+}
+.TextAll{
+    height: 3.23vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 0.42vw;
+    flex: 1 0 0;
+}
+.Header{
+    align-self: stretch;
+    color: #333;
+    font-family: 'Montserrat_Medium';
+    font-size: 0.73vw;
+    line-height: 150%;
+}
+.Text{
+    color: var(--Black, #333);
+    font-family: 'Montserrat_bold';
+    font-size: 1.35vw;
+    line-height: 125%;
+}

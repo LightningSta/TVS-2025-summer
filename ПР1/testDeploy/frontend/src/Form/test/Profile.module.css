@@ -1,0 +1,256 @@
+.Profile{
+    width: 72.92vw;
+    height: 78.75vw;
+    border-radius: 2.08vw;
+    background: rgba(255, 255, 255, 0.95);
+    box-shadow: 0.21vw 0.21vw 0.21vw 0 rgba(0, 0, 0, 0.25) inset, -4px -4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+    backdrop-filter: blur(0.1vw);
+    margin-top: 13.54vw;
+    margin-left: 13.54vw;
+}
+.Content{
+    width: 67.19vw;
+    height: 70.31vw;
+    padding-bottom: 2.08vw;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3.13vw;
+    margin-left: 2.86vw;
+}
+.Header{
+    width: 67.19vw;
+    height: 6.25vw;
+    padding: 2.08vw 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.04vw;
+    border-bottom: 1px solid var(--Light_grey, #E2E0DB);
+}
+.Frame{
+    width: 67.19vw;
+    height: 6.25vw;
+    display: flex;
+    align-items: center;
+    gap: 1.04vw;
+}
+.Name{
+    width: 53.23vw;
+    height: 6.25vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.25vw;
+    flex: 1 0 0;
+}
+.Name p{
+    width: 45.73vw;
+    height: 2.6vw;
+    font-size: 2.08vw;
+    font-family: 'Montserrat_SemiBold';
+    line-height: 125%;
+    align-self: stretch;
+    color: black;
+}
+.Button{
+    width: 1.88vw;
+    height: 1.88vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    border: none;
+    background: #F1F2F8;
+    border-radius: 50%;
+    position: absolute;
+    top: 9.64vw;
+    left: 7.24vw;
+}
+.Button img{
+    width: 1.25vw;
+    height: 1.25vw;
+}
+.Avatar{
+    width: 6.25vw;
+    height: 6.25vw;
+    border-radius: 50%;
+}
+.Social{
+    width: 12.92vw;
+    height: 2.08vw;
+    display: flex;
+    align-items: center;
+    gap: 0.63vw;
+}
+
+.Main{
+    width: 67.19vw;
+    height: 59.9vw;
+    display: flex;
+    align-items: flex-start;
+}
+.SideBar{
+    width: 15.63vw;
+    height: 27.29vw;
+    padding: 1.56vw 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.63vw;
+    flex-shrink: 0;
+}
+.GroupBar1{
+    width: 15.63vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+}
+.GroupBar2{
+    color: black;
+    background: none;
+}
+.AppLine{
+    width: 15.63vw;
+    height: 0.21vw;
+}
+.Lines{
+    width: 15.63vw;
+    height: 0.05vw;
+    background: #E2E0DB;
+}
+.MainInformation{
+    display: flex;
+    width: 48.28vw;
+    padding: 1.56vw 0 0 1.56vw;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2.08vw;
+    flex-shrink: 0;
+}
+.Divider{
+    width: 1px;
+    flex-shrink: 0;
+    align-self: stretch;
+    background: #E2E0DB;
+    height: 30.42vw;
+}
+.DividerExpanded{
+    height: 33.33vw;
+}
+.Listing{
+    display: flex;
+    width: 46.72vw;
+    height: 17.76vw;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.04vw;
+}
+.TextList{
+    display: flex;
+    align-items: center;
+    gap: 1.04vw;
+    align-self: stretch;
+    color: #333;
+    font-family: 'Montserrat_Bold';
+    font-size: 1.04vw;
+    line-height: 125%;
+}
+.Table{
+    width: 46.72vw;
+    height: 15.42vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: stretch;
+    border-radius: 0.42vw;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border: 0.05vw solid #E2E0DB;
+}
+.Heading{
+    display: flex;
+    width: 44.54vw;
+    height: 1.04vw;
+    padding: 0.83vw 1.04vw;
+    justify-content: center;
+    align-items: center;
+    gap: 2.08vw;
+    align-self: stretch;
+    border-radius: 0.42vw 0.42vw 0 0;
+    background: #F1F2F8;
+}
+.Heading div{
+    color:#1C1C1B;
+    font-family: 'Montserrat_SemiBold';
+    font-size: 0.83vw;
+    line-height: 125%;
+    height: 1.04vw;
+    display: flex;
+    justify-content: center;
+}
+.NameFormul{
+    width: 26.41vw;
+    flex-direction: column;
+    align-self: stretch;
+}
+.ExportFile{
+    width: 9.85vw;
+    text-align: right;
+    align-items: center;
+    flex-shrink: 0;
+}
+.Analizator{
+    width: 5.21vw;
+    align-items: center;
+    flex: 1 0 0;
+    text-align: right;
+}
+.DividerGhor{
+    height: 1px;
+    align-self: stretch;
+    background: #DDD;
+}
+.AnalizatorBlock{
+    width: 48.28vw;
+    height: 7.66vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: calc(1.04vw);
+    align-self: stretch;
+}
+.HeadingAnaliz{
+    width: 48.28vw;
+    height: 1.3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+    color: #333;
+    font-family: 'Montserrat_Bold';
+    font-size: 1.04vw;
+    line-height: 125%;
+}
+.Card{
+    width: 48.28vw;
+    height: 5.31vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.04vw;
+    align-self: stretch;
+}
+.Develop{
+    text-align: center;
+    font-size: 2.08vw;
+    margin-top: 2.6vw;
+    font-family: 'Montserrat_Bold';
+}
+.Develop img{
+    width: 39.06vw;
+    height: 31.25vw;
+    border-radius: 15.63vw;
+    margin-top: 2.6vw;
+}

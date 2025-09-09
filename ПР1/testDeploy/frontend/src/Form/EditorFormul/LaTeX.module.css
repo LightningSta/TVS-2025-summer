@@ -1,0 +1,170 @@
+.LaTeX{
+    width: 96.88vw;
+    height: 46.88vw;
+    border-radius: 1.56vw;
+    background: rgba(255, 255, 255, 0.85);
+    box-shadow: 0.21vw 0.21vw 0.21vw 0 rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(0.1vw);
+    margin-top: 4.29vw;
+    margin-left: 1.56vw;
+}
+.LaTeXAll{
+    position: relative;
+    top: 3.13vw;
+    margin-left: 4.17vw;
+}
+.LaTeXAll h1{
+    font-family: 'Montserrat_SemiBold';
+    font-size: 1.88vw;
+    color: black;
+}
+.LaTeXAll p{
+    font-family: 'Montserrat_Regular';
+    font-size: 0.94vw;
+    color: black;
+    margin-top: -0.94vw;
+}
+.Forms{
+    max-width: 56.25vw;
+    margin-top: 1.56vw;
+}
+.Label{
+    height: 1.41vw;
+    font-size: 1.15vw;
+    font-family: 'Montserrat_SemiBold';
+    color: black;
+    position: relative;
+    bottom: 0.78vw;
+}
+.TextArea {
+    width: 100%;
+    height: 13.02vw;
+    margin-bottom: 1.04vw;
+    border-radius: 0.52vw;
+    border: 0.05vw solid #2534B4;
+    background: none;
+    outline: none;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    text-align: left;
+    vertical-align: top;
+    font-family: 'Montserrat_Regular', sans-serif;
+    font-size: .85vw;
+    resize: none;
+}
+.TextArea span{
+    font-size: 1.2vw;
+}
+.Save{
+    justify-content: center;
+    align-items: center;
+    width: 14.38vw;
+    height: 2.4vw;
+    border-radius: 0.31vw;
+    background: #000CFF;
+    margin-right: 5vw;
+    color: #FFF;
+    font-family: 'Montserrat_SemiBold';
+    font-size: 1.15vw;
+    line-height: 120%;
+    border: none;
+}
+.Button{
+    margin-top: -40vw;
+    margin-left: 67.71vw;
+}
+.categoryTitle {
+    font-family: 'Montserrat_SemiBold';
+    font-size: 1.04vw;
+    cursor: pointer;
+    margin-top: 10px;
+    color: black;
+}
+.activeCategory{
+    color: #000CFF;
+}
+.div_test{
+    flex-direction: row;
+}
+.buttonContainer {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 18.75vw;
+    width: 100%;
+    margin-top: 10px;
+}
+  
+.button {
+    margin: 0.26vw;
+    padding: 0.52vw 1.04vw;
+    font-family: 'Montserrat_Medium';
+    line-height: 120%;
+    font-size: 0.83vw;
+    background-color: #000CFF;
+    color: white;
+    border: none;
+    border-radius: 0.31vw;
+    cursor: pointer;
+    text-align: start;
+}
+
+.button:hover {
+    background-color: #000CFF;
+}
+.SuccessSave{
+    color: forestgreen;
+    font-family: 'Montserrat_Bold';
+    font-size: 1.07vw;
+    display: inline-block;
+    text-align: center;
+    margin-top: 1.0vw;
+}
+.failedSave{
+    color: darkred;
+    font-family: 'Montserrat_Bold';
+    font-size: 1.07vw;
+    display: inline-block;
+    text-align: center;
+    margin-top: 1.0vw;
+}
+.Input{
+    width: 21vw;
+    height: 2.5vw;
+    border-radius: 0.21vw;
+    border: 0.05vw solid #C4C8D0;
+    margin: 1.2vw auto;
+    align-content: center;
+    background: none;
+    outline: none;
+    padding-left: 1.04vw;
+    font-family: "Montserrat_Medium";
+    font-size: 0.83vw;
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+}
+.LogoImg{
+    margin-left: 0.3vw;
+    border-radius: 50%;
+    width: 3vw;
+    height: 3vh;
+}
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+.fileInput {
+    display: none;
+}

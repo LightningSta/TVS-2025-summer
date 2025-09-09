@@ -1,0 +1,13 @@
+services:
+  formula-serivce:
+    image: formula-serivce:latest
+    build:
+      context: .
+      args:
+        DOCKER_BUILDKIT: 1
+    restart: always
+    environment:
+      GATEWAYURL: http://api-gateway:8082
+      EUREKA_CLIENT_SERVICE_URL_DEFAULTZONE: http://service-server:8081/eureka/
+    ports:
+      - "8071:8071"

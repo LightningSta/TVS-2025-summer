@@ -1,0 +1,38 @@
+{
+    "GroupBar1": [
+        {
+            "img": "",
+            "name": "История"
+        },
+        {
+            "img": "",
+            "name": "Мой профиль"
+        }
+    ],
+    "GroupBar2": [
+        {
+            "img": "",
+            "name": "Вопросы & Ответы"
+        }
+    ],
+    "GroupBar3": [
+        {
+            "img": "",
+            "name": "Выйти из профиля"
+        }
+    ],
+    "Box":[
+        {
+            "img": "/function.svg",
+            "header": "Совпадение",
+            "text": "text",
+            "background": "#D5F2FE"
+        },
+        {
+            "img": "/percentage-percent.svg",
+            "header": "Процент совпадения",
+            "text": "NoText",
+            "background": "#DFF8CF"
+        }
+    ]
+}

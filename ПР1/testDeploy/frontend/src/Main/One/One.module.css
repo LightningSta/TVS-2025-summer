@@ -1,0 +1,131 @@
+.One{
+    height: 31.25vw;
+    display: block;
+}
+.OneHeadP{
+    font-family: 'Montserrat_Bold';
+    font-size: 4.27vw;
+    color: #2534B4;
+    margin-top: 2vw;
+}
+.OneHeadP span{
+    color: #000CFF;
+}
+.OneCenterP{
+    font-family: 'Montserrat_Medium';
+    font-size: 1.25vw;
+    color: black;
+    margin-top: -6.8vh;
+}
+.OneButton{
+    height: 6.85vh;
+    background: #000CFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    color: white;
+    font-family: 'Montserrat_Bold';
+    line-height: 120%;
+    margin-top: 4.44vh;
+}
+.ImgPerson{
+    height: 31.25vw;
+    margin-top: -23.5vw;
+}
+.BlockDeveloper{
+    height: 8.89vh;
+    background: #FFF;
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    top: -9.4vw;
+}
+.BlcDev{
+    height: 3.89vw;
+    border-radius: 50%;
+    background: #FBD300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ImgBlockDev{
+    height: 1.67vw;
+}
+.BlockDevP{
+    color: #101566;
+    font-family: 'Montserrat_Medium';
+}
+.BlockDevSpan{
+    color: #627A95;
+    line-height: 160%;
+}
+.BlockProject{
+    top: -30.83vw;
+}
+.BlcProject{
+    height: 3.89vw;
+    background: #FBA000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.BlockProjP{
+    font-family: 'Montserrat_Medium';
+    color: #627A95;
+    line-height: 160%;
+}
+.BlockProjSpan{
+    color: #101566;
+}
+
+@media (min-width: 927px) and (max-width: 1920px){
+    .One{
+        width: 88.02vw;
+    }
+    .OneButton{
+        width: 8.72vw;
+        border-radius: 0.56vw;
+        font-size: 1.11vw;
+    }
+    .ImgPerson{
+        width: 31.25vw;
+        margin-left: 54.95vw;
+    }
+    .BlockDeveloper{
+        width: 16.15vw;
+        box-shadow: 0 1.11vw 2.78vw 0 rgba(112, 144, 176, 0.20);
+        margin-left: 46.67vw;
+        border-radius: 2.78vw;
+    }
+    .BlcDev{
+        width: 3.89vw;
+        margin-left: 0.56vw;
+        margin-right: 1.09vw;
+    }
+    .ImgBlockDev{
+        width: 1.67vw;
+    }
+    .BlockDevP{
+        font-size: 1.39vw;
+    }
+    .BlockDevSpan{
+        font-size: 0.85vw;
+    }
+    .BlockProject{
+        width: 12.43vw;
+        margin-left: 75.26vw;
+    }
+    .BlcProject{
+        width: 3.89vw;
+        border-radius: 50%;
+        margin-left: 0.56vw;
+        margin-right: 1.11vw;
+    }
+    .BlockProjP{
+        font-size: 1.11vw;
+    }
+    .BlockProjSpan{
+        font-size: 1.39vw;
+    }
+}
