@@ -1,0 +1,35 @@
+.Two{
+    width: 1600px;
+    height: 1334.67px;
+    margin-top: 8.65vw;
+    margin-left: 8.33vw;
+    border: 1px solid red;
+}
+.HeaderText{
+    width: 1600px;
+    height: 108px;
+    font-family: 'Montserrat_Medium';
+    line-height: 1.67vw;
+    color: #627A95;
+    font-size: 0.9vw;
+}
+.Twoh1{
+    font-family: 'Montserrat_Bold';
+    line-height: 120%;
+    color: #2534B4;
+    font-size: 2.36vw;
+    position: relative;
+    top: -2.6vw;
+}
+.Twoh1span{
+    color: #000CFF;
+}
+.TwoHeaderP{
+    margin-left: 35.9vw;
+    position: relative;
+    top: -10.1vw;
+}
+
+@media (min-width: 927px) and (max-width: 1920px){
+
+}

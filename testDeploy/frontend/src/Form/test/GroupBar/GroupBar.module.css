@@ -1,0 +1,35 @@
+.GroupItem{
+    width: 13.54vw;
+    height: 1.2vw;
+    display: flex;
+    padding: 0.83vw 1.04vw;
+    align-items: center;
+    gap: 0.63vw;
+    align-self: stretch;
+    border-radius: 6px 0px 0px 6px;
+    transition: background-color 0.3s ease;
+    color: black;
+    cursor: pointer;
+}
+.GroupItem:hover {
+    color: white;
+    background-color: #2534B4;
+}
+
+.GroupItem.active {
+    background-color: #2534B4;
+    color: white;
+}
+.activeHistory{
+    background-color: #2534B4;
+    color: white;
+}
+.GroupItem img{
+    width: 1.04vw;
+    height: 1.04vw;
+}
+.GroupItem p{
+    font-family: 'Montserrat_Bold';
+    font-size: 0.94vw;
+    line-height: 125%;
+}

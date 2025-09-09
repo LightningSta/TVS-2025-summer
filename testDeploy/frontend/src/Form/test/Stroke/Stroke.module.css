@@ -1,0 +1,26 @@
+.Stroke{
+    width: 44.64vw;
+    height: 1.25vw;
+    display: flex;
+    padding: 0.63vw 1.04vw;
+    align-items: flex-start;
+    gap: 2.08vw;
+    align-self: stretch;
+    font-family: 'Montserrat_Medium';
+    font-size: 0.83vw;
+    line-height: 150%;
+    color: #666;
+}
+.NameFormul{
+    width: 30.05vw;
+}
+.ExportFile{
+    width: 5.21vw;
+    text-align: right;
+    cursor: pointer;
+}
+.Analizator{
+    width: 5.21vw;
+    text-align: right;
+    cursor: pointer;
+}
