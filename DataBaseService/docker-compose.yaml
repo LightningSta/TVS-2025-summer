@@ -1,0 +1,39 @@
+services:
+  postgres:
+    image: postgres:17.2
+    restart: always
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - - ./init.sql:/docker-entrypoint-initdb.d/init.sql:ro
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: NatsumiChan
+      POSTGRES_DB: postgres
+    healthcheck:
+      test: pg_isready -U $$POSTGRES_USER -d $$POSTGRES_DB
+      interval: 10s
+      timeout: 5s
+      start_period: 10s
+      retries: 5
+
+  data-base-service:
+    image: data-base-service:latest
+    build:
+      context: .
+      args:
+        DOCKER_BUILDKIT: 1
+    restart: always
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: NatsumiChan
+      POSTGRES_DB: postgres
+      POSTGRES_HOST: postgres:5432
+      EUREKA_CLIENT_SERVICE_URL_DEFAULTZONE: http://service-server:8081/eureka/
+    ports:
+      - "8070:8070"
+    depends_on:
+      - postgres
+volumes:
+  postgres_data:
